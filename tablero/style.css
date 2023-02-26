@@ -1,0 +1,78 @@
+.tabcontent {
+    display: none;
+  }
+  
+.tabcontent.show {
+  display: block;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 10px 10px 40px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+  position: relative;
+  width: 100%;
+}
+
+.menu a:hover {
+  background-color: #ccc;
+}
+
+.menu a.active {
+  background-color: #fff;
+  cursor: default;
+}
+
+.label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 5px 0 0 5px;
+}
+
+.label-docente {
+  background-color: #f44336;
+}
+
+.label-alumno {
+  background-color: #2196f3;
+}
+
+.label-materia {
+  background-color: #4caf50;
+}
