@@ -11,6 +11,7 @@ Vue.component('component-inscripcion',{
                 nombre : '',
             }
         }
+
     },
     methods:{
         guardarMateria(){
@@ -103,5 +104,6 @@ Vue.component('component-inscripcion',{
                 </div>
             </div>
           
-    `
+   
+            `
 });
